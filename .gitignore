@@ -1,0 +1,8 @@
+__pycache__
+.secrets.toml
+.vscode
+htmlcov
+.coverage
+.pytest_cache
+.venv
+run.py

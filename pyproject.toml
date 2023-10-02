@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "module-metrics"
+version = "0.1.0"
+description = ""
+authors = ["Lucas <lhenriquerod@dxc.com>"]
+readme = "README.md"
+packages = [{include = "module_metrics"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+azure-identity = "^1.12.0"
+dynaconf = "^3.1.12"
+azure-mgmt-monitor = "^6.0.0"
+pandas = "^2.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.1"
+pylint = "^2.17.2"
+pytest-cov = "^4.0.0"
+bandit = "^1.7.5"
+safety = "^2.3.5"
+pytest-mock = "^3.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
