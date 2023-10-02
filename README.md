@@ -3,6 +3,7 @@ Module responsible for fetching metrics from resources in the Azure Cloud. Retur
 
 ## **Requirements**
 - [Python 3.10 or higher](https://www.python.org/downloads/)
+- [Poetry](https://python-poetry.org/docs/)
 
 ## **Installing Dependencies**
 ```cmd
